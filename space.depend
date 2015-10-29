@@ -1,0 +1,197 @@
+# depslib dependency file v1.0
+1397239575 source:/home/robert/programowanie/space/helper.c
+	"helper.h"
+
+1398982001 /home/robert/programowanie/space/helper.h
+	<allegro5/allegro.h>
+
+1397576913 /home/robert/programowanie/space/includes.h
+	<stdio.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	"helper.h"
+	"vector2.h"
+	"planet.h"
+	"object.h"
+	"value.h"
+	"input.h"
+	"bitmaps.h"
+	"game_state.h"
+	"consts.h"
+
+1399212115 /home/robert/programowanie/space/vector2.h
+	<assert.h>
+	<math.h>
+
+1400340076 source:/home/robert/programowanie/space/main.c
+	"main.h"
+
+1399212115 source:/home/robert/programowanie/space/vector2.c
+	"vector2.h"
+
+1399211757 /home/robert/programowanie/space/object.h
+	<math.h>
+	<allegro5/allegro.h>
+	"vector2.h"
+	"planet.h"
+	"wormhole.h"
+	"consts.h"
+	"explosion.h"
+	"entrance_animation.h"
+
+1399451463 /home/robert/programowanie/space/planet.h
+	<allegro5/allegro.h>
+	<math.h>
+	"vector2.h"
+	"consts.h"
+	"animation.h"
+
+1399211757 source:/home/robert/programowanie/space/object.c
+	"object.h"
+
+1399927329 source:/home/robert/programowanie/space/planet.c
+	"planet.h"
+
+1400337848 source:/home/robert/programowanie/space/bitmaps.c
+	"bitmaps.h"
+
+1400337848 /home/robert/programowanie/space/bitmaps.h
+	<allegro5/allegro.h>
+	"consts.h"
+
+1397236123 source:/home/robert/programowanie/space/value.c
+	"value.h"
+
+1398982046 /home/robert/programowanie/space/value.h
+	<stdbool.h>
+
+1398989528 source:/home/robert/programowanie/space/input.c
+	"input.h"
+
+1398988980 /home/robert/programowanie/space/input.h
+	<allegro5/allegro.h>
+	<math.h>
+	"vector2.h"
+	"object.h"
+	"helper.h"
+	"value.h"
+	"game_state.h"
+
+1398982001 /home/robert/programowanie/space/game_state.h
+
+1400179550 /home/robert/programowanie/space/consts.h
+
+1400332638 source:/home/robert/programowanie/space/consts.c
+	"consts.h"
+
+1400340076 /home/robert/programowanie/space/main.h
+	<stdio.h>
+	<string.h>
+	<sys/time.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	"helper.h"
+	"vector2.h"
+	"planet.h"
+	"object.h"
+	"value.h"
+	"input.h"
+	"bitmaps.h"
+	"game_state.h"
+	"consts.h"
+	"map.h"
+	"wormhole.h"
+	"maps.h"
+	"animation.h"
+	"audio.h"
+	"stars.h"
+
+1400338695 source:/home/robert/programowanie/space/map.c
+	"map.h"
+
+1398982001 /home/robert/programowanie/space/map.h
+	<stdio.h>
+	<allegro5/allegro_native_dialog.h>
+	"consts.h"
+	"planet.h"
+	"input.h"
+	"object.h"
+	"bitmaps.h"
+	"vector2.h"
+	"wormhole.h"
+
+1399114652 source:/home/robert/programowanie/space/wormhole.c
+	"wormhole.h"
+
+1399114656 /home/robert/programowanie/space/wormhole.h
+	<math.h>
+	<stdio.h>
+	<allegro5/allegro.h>
+	"vector2.h"
+	"consts.h"
+	"helper.h"
+
+1399980477 /home/robert/programowanie/space/maps.h
+	<stdbool.h>
+	<stdio.h>
+	<string.h>
+	"consts.h"
+
+1399980477 source:/home/robert/programowanie/space/maps.c
+	"maps.h"
+
+1398987534 source:/home/robert/programowanie/space/size.c
+	"size.h"
+
+1398987534 /home/robert/programowanie/space/size.h
+	<assert.h>
+
+1399757995 source:/home/robert/programowanie/space/animation.c
+	"animation.h"
+
+1398984927 /home/robert/programowanie/space/animation.h
+	<allegro5/allegro.h>
+	"size.h"
+	"vector2.h"
+	"consts.h"
+
+1399117490 /home/robert/programowanie/space/explosion.h
+	"animation.h"
+
+1399117490 source:/home/robert/programowanie/space/explosion.c
+	"explosion.h"
+
+1400180578 source:/home/robert/programowanie/space/entrance_animation.c
+	"entrance_animation.h"
+
+1399132135 /home/robert/programowanie/space/entrance_animation.h
+	"consts.h"
+	"vector2.h"
+	"helper.h"
+	"wormhole.h"
+	"object.h"
+
+1399120322 /home/robert/programowanie/space/entrance_animation_struct.h
+
+1399639094 source:/home/robert/programowanie/space/audio.c
+	"audio.h"
+
+1399639094 /home/robert/programowanie/space/audio.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1400531825 /home/robert/programowanie/space/stars.h
+	<allegro5/allegro.h>
+	<stdbool.h>
+	"consts.h"
+	"vector2.h"
+	"size.h"
+
+1400531877 source:/home/robert/programowanie/space/stars.c
+	"stars.h"
+

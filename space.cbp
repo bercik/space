@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="space" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/space" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="/usr/local/lib/liballegro_ttf.so" />
+					<Add library="/usr/local/lib/liballegro_primitives.so" />
+					<Add library="/usr/local/lib/liballegro_physfs.so" />
+					<Add library="/usr/local/lib/liballegro_memfile.so" />
+					<Add library="/usr/local/lib/liballegro_main.so" />
+					<Add library="/usr/local/lib/liballegro_image.so" />
+					<Add library="/usr/local/lib/liballegro_font.so" />
+					<Add library="/usr/local/lib/liballegro_dialog.so" />
+					<Add library="/usr/local/lib/liballegro_color.so" />
+					<Add library="/usr/local/lib/liballegro_audio.so" />
+					<Add library="/usr/local/lib/liballegro_acodec.so" />
+					<Add library="/usr/local/lib/liballegro.so" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/space" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="animation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="animation.h" />
+		<Unit filename="audio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="audio.h" />
+		<Unit filename="bitmaps.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bitmaps.h" />
+		<Unit filename="consts.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="consts.h" />
+		<Unit filename="entrance_animation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="entrance_animation.h" />
+		<Unit filename="explosion.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="explosion.h" />
+		<Unit filename="game_state.h" />
+		<Unit filename="helper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="helper.h" />
+		<Unit filename="input.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="input.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.h" />
+		<Unit filename="map.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="map.h" />
+		<Unit filename="maps.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="maps.h" />
+		<Unit filename="object.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="object.h" />
+		<Unit filename="planet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="planet.h" />
+		<Unit filename="size.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="size.h" />
+		<Unit filename="stars.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stars.h" />
+		<Unit filename="value.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="value.h" />
+		<Unit filename="vector2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vector2.h" />
+		<Unit filename="wormhole.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="wormhole.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
